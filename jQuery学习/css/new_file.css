@@ -1,0 +1,12 @@
+.int1 {
+	padding-left: 1em;
+}
+.int2 {
+	padding-left: 2em;
+}
+.sub {
+	padding-left: 4.5em;
+}
+.sub>input {
+	margin: .5em 1em;
+}

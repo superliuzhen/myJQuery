@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>		
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+    <!--<script type="text/javascript">
+
+
+    		var div = document.getElementsByTagName('div'); //dom对象
+            
+		    //将dom节点div转化为$div的jquery对象
+            // $div =  ?
+            var $div = $(div);
+			var $first = $div.first(); //找到第一个div元素
+			$first.css('color', 'red'); //给第一个元素设置颜色
+
+
+    </script>-->
+    <from method="post" action="">
+    	<div class="int1">
+    		<label for="username">用户名：</label>
+    		<input type="text" id="username"  class="required" />
+    	</div>
+    	<div class="int2">
+    		<label for="email">邮箱：</label>
+    		<input type="text" id="email"  class="required" />
+    	</div>
+    	<div class="int3">
+    		<label for="personinfo">个人资料：</label>
+    		<input type="text" id="personinfo"  />
+    	</div>
+    	<div class="sub">
+    		<input type="button" id="send" value="Ajax提交" onclick="Ajax();" />
+    		<input type="reset"  id="res" />
+    	</div>
+    	<div id="resText">这里显示服务器返回的HTML文本</div>
+    </from>
+    
+	</body>
+</html>
